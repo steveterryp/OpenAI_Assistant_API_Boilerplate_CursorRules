@@ -26,4 +26,4 @@ Super simple boilerplate for using the OpenAI Assistant API + Cursor Rules for y
 
 5. Start chatting with your personal assistant!
 
-6. Use the cursor rules to create your own tools by using the composer tool (CMD + I on Mac, CTRL + I on Windows)
+6. Use the cursor composer to start adding your own tools along with files from the apis you want to use. 
