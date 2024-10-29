@@ -26,4 +26,11 @@ Super simple boilerplate for using the OpenAI Assistant API + Cursor Rules for y
 
 5. Start chatting with your personal assistant!
 
-6. Use the cursor composer to start adding your own tools along with files from the apis you want to use. 
+6. Use the cursor composer to start adding your own tools along with documentation details from the apis you want to use. Use the attached `AddTools_CursorInstructions.md` to help you.
+
+## Features
+
+- OpenAI Assistant API integration
+- File operations (read/write)
+- Rich terminal interface
+- Conversation persistence so it recalls your prior convos until you tell it to 'reset'

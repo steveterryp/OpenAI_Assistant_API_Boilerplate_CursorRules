@@ -40,7 +40,6 @@ SUPER_ASSISTANT_INSTRUCTIONS = """
             "workspace": "agent_directory folder",
             "capabilities": ["Read files", "Write files", "List files"],
             "restrictions": "Can only access files within agent_directory"
-        }
     },
     "user_details": {
         "name": "",
