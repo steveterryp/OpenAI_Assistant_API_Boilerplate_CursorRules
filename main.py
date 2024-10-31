@@ -29,8 +29,8 @@ MODEL_NAME = "gpt-4o-mini"  # Using the latest model
 class AssistantManager:
     def __init__(self):
         """Initialize the AssistantManager with OpenAI client and configuration."""
-        # Load environment variables
-        load_dotenv()
+        # Load environment variables with override to ensure we get the .env values
+        load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env'), override=True)
         
         # Initialize OpenAI client
         self.api_key = os.getenv("OPENAI_API_KEY")
