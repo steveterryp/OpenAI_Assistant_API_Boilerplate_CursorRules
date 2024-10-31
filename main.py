@@ -24,7 +24,7 @@ from prompts import SUPER_ASSISTANT_INSTRUCTIONS
 
 # Constants
 THREAD_ID_FILE = "thread_id.txt"
-MODEL_NAME = "gpt-4-1106-preview"  # Using the latest model
+MODEL_NAME = "gpt-4o-mini"  # Using the latest model
 
 class AssistantManager:
     def __init__(self):
